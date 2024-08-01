@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/s5jld5dr7lg1kgsy?svg=true)](https://ci.appveyor.com/project/Anya9999222/crud_front)
