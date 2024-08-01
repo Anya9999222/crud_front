@@ -1,0 +1,140 @@
+.container {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.popup {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.75);
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: 5;
+  }
+
+  .popup-container{
+    max-width: 390px;
+    width: 95%;
+    margin: auto;
+    background-color: #ffffff;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-modal {
+    margin: 20px 0px;
+  }
+  .input {
+    width: 340px;
+    margin-bottom: 20px;
+  }
+  .visually-hidden {
+    position: absolute; 
+    width: 1px;
+    height: 1px;
+    margin: -1px; 
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+    
+.modal-form {
+    position: absolute;
+    z-index: 999;
+}
+.card-item {
+    display: flex;
+    border: 1px solid black;
+    padding: 5px;
+    flex-direction: column;
+}
+.card-item-main{
+    display: flex;
+    justify-content: space-between;
+}
+.card-item-block{
+    display: flex;
+    align-items: center;
+}
+
+
+.checkbox {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.checked {
+    background-image: url(cfeea5158ff8865a4363.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+.text-container {
+    margin-left: 10px;
+}
+
+.date-container{
+    margin-right: 40px;
+}
+
+.button {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+.edit {
+    background-image: url(c4b0a302c1a24d5b2568.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+.delete {
+    background-image: url(ab8663730844c043de01.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+.header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+.add {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+.cards-container {
+    min-height: 50px;
+    border: 1px solid black;
+}
+
+/*# sourceMappingURL=main.css.map*/
